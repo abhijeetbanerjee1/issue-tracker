@@ -14,7 +14,7 @@ import Spinner from "@/app/components/Spinner";
 
 type IssueForm = z.infer<typeof createIssueSchema>;
 
-const NewIssuePage = async () => {
+const NewIssuePage = () => {
   const router = useRouter();
   const {
     register,
