@@ -3,7 +3,6 @@
 import { User } from "@prisma/client";
 import { Select, Text } from "@radix-ui/themes";
 import axios from "axios";
-import { setLazyProp } from "next/dist/server/api-utils";
 import React, { useEffect, useState } from "react";
 
 const AssigneeSelect = () => {
