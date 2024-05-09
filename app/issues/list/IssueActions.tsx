@@ -6,7 +6,7 @@ import IssueStatusFilter from "./IssueStatusFilter";
 const IssueActions = () => {
   return (
     <Flex mb="5" justify="between">
-      <Flex>
+      <Flex align="center">
         <IssueStatusFilter />
       </Flex>
       <Button>
